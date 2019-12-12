@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#46CA3C"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LoginFrag">
+
+<EditText
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="60dp"
+    android:background="#FCFAFA"
+    android:id="@+id/e1"
+    android:layout_marginTop="40dp"></EditText>
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#FCFAFA"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"></EditText>
+
+    <Button
+        android:layout_width="100dp"
+        android:id="@+id/logbuttonss"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:text="login"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#FCFAFA"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"></TextView>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#FCFAFA"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"></TextView>
+</LinearLayout>
